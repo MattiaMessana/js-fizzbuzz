@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #193A4A;
+}
+.container {
+    width: 90%;
+    margin: 3rem auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .box {
+    width: 150px;
+    height: 150px;
+  
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 700;
+    background-color: #3F87AE;
+    
+  }
+  
+  .fizz {
+    background-color: lightblue;
+  }
+  
+  .buzz {
+    background-color: lightcoral;
+  }
+
+  .fizzbuzz {
+    background-color: lightgreen;
+  }
+
+  
